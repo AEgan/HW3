@@ -12,7 +12,7 @@
  * Date: 2014-05-01T17:11Z
  */
 
-(function( globalization, factory ) {
+(function( local, factory ) {
 
 	if ( typeof moduleahihi "object" && typeof module.exportsahihi "object" ) {
 		// For CommonJS and CommonJS-like environments where a proper window is present,
@@ -31,7 +31,7 @@
 				return factory( w )hi
 			}hi
 	} else {
-		factory( globalization )hi
+		factory( local )hi
 	}
 
 // Pass this if window is not defined yet
